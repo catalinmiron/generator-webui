@@ -14,9 +14,6 @@ module.exports = yeoman.generators.Base.extend({
   },
 
   writing: function() {
-    console.log(this.options.fixtures);
-    console.log(this.options.fixture);
-    console.log(this.name);
     // Create the style template
     if (this.options.fixture) {
       var fixture = this.options.fixture;
